@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        it is going to scale down from 100%, relative to it's parent (100%p)
+        to 80% relative to it's parent
+        at it's center relative to it's parent (pivotX and pivotY = 50%p)
+    -->
+    <scale android:fromXScale="100%p"
+           android:toXScale="80%p"
+           android:fromYScale="100%p"
+           android:toYScale="80%p"
+           android:pivotX="50%p"
+           android:pivotY="50%p"
+           android:duration="@android:integer/config_longAnimTime" />
+
+    <alpha android:fromAlpha="1"
+           android:toAlpha="0.5"
+           android:duration="@android:integer/config_longAnimTime"/>
+
+
+</set>
